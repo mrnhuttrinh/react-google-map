@@ -1,0 +1,114 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 180px;
+
+  &__top {
+    display: flex;
+    width: 100%;
+    height: 60px;
+
+    &--logo {
+      width: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      > img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    &--menu {
+      margin-left: 20px;
+      margin-right: 5px;
+      display: flex;
+      flex: 1;
+      justify-content: space-between;
+      border-bottom: 1px solid #0071ca;
+
+      &_left {
+        display: flex;
+        list-style: none;
+        height: 100%;
+        line-height: 100%;
+        align-items: center;
+        text-decoration: none;
+
+        > li {
+          display: inline-block;
+          cursor: pointer;
+          padding-right: 10px;
+          padding-left: 10px;
+          font-size: 14px;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: 0.2px;
+          color: #8c8aa2;
+          line-height: 57px;
+
+          &:hover {
+            text-shadow: 1px 0px 0px #0071ca;
+            border-bottom: 3px solid #0071ca;
+          }
+        }
+
+        .active {
+          text-shadow: 1px 0px 0px #0071ca;
+          border-bottom: 3px solid #0071ca;
+        }
+      }
+
+      &_right {
+        display: flex;
+        list-style: none;
+        height: 100%;
+        line-height: 100%;
+        align-items: center;
+        text-decoration: none;
+
+        > li {
+          display: inline-block;
+          cursor: pointer;
+          margin-right: 10px;
+          margin-left: 10px;
+          font-size: 14px;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: 0.2px;
+          color: #0071ca;
+        }
+      }
+    }
+  }
+
+  &__bottom {
+    width: 100%;
+    height:120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+
+    > div {
+      margin: 5px 0;
+
+      &:first-child {
+        text-decoration: underline;
+      }
+
+      &:last-child {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__icon {
+    font-size: 20px;
+  }
+}

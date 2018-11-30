@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header component 1`] = `
+<header
+  className="header"
+>
+  <a
+    aria-current={null}
+    className="header__item"
+    href="/all-stores/dining"
+    onClick={[Function]}
+    style={
+      Object {
+        "order": undefined,
+      }
+    }
+  >
+    <i
+      className="icon fas fa-fire"
+      style={
+        Object {
+          "color": "#ffc125",
+        }
+      }
+    />
+    <span>
+      Dining
+    </span>
+  </a>
+</header>
+`;

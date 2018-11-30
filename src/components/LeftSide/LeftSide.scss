@@ -1,0 +1,51 @@
+.left-side {
+  min-height: 600px;
+  width: 400px;
+  background: #fff;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+
+  &__filter {
+    height: 250px;
+    padding: 0 20px 25px 20px;
+
+    &--pills {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      > * {
+        margin:5px;
+      }
+    }
+  }
+
+  &__table {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    &--content {
+      padding: 10px 20px;
+      // flex: 1;
+      padding-bottom: 10px;
+    }
+
+    &--pagination {
+      padding: 10px;
+      // height: 70px;
+      display: flex;
+      justify-content: center;
+      background: #f7f7f7;
+
+      .pagination {
+        margin: 0;
+      }
+    }
+
+    .td-name {
+      color: #0071ca;
+    }
+  }
+}
