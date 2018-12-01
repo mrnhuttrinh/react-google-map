@@ -1,3 +1,3 @@
 * npm install
 * npm start
-* visit `http://localhost:9000/`
+* visit `http://localhost:8080
